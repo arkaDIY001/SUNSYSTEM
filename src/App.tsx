@@ -444,6 +444,19 @@ function App() {
               </button>
             ))}
           </div>
+
+          {/* Netlify link */}
+          <a
+            href="https://www.netlify.com/"
+            target="_blank"
+            rel="noopener noreferrer"
+            className="flex items-center gap-2 px-4 py-2 rounded-full bg-teal-600/20 hover:bg-teal-600/40 text-teal-300 hover:text-teal-100 transition-all duration-200 border border-teal-500/30 hover:border-teal-400/60 text-sm font-medium"
+          >
+            <svg className="w-4 h-4" viewBox="0 0 24 24" fill="currentColor">
+              <path d="M16.942 3.002L12 0 7.058 3.002 0 12l7.058 8.998L12 24l4.942-3.002L24 12l-7.058-8.998zM12 16.5c-2.485 0-4.5-2.015-4.5-4.5S9.515 7.5 12 7.5s4.5 2.015 4.5 4.5-2.015 4.5-4.5 4.5z"/>
+            </svg>
+            <span>Netlify</span>
+          </a>
         </div>
       </div>
     </div>
